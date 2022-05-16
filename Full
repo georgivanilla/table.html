@@ -159,9 +159,9 @@ td.number {
 
 </style>
 <div class='rg-container'>
-	<table class='rg-table zebra' summary='Equivalency Table'>
+	<table class='rg-table zebra' summary='Steel Grade Equivalency Table'>
 		<caption class='rg-header'>
-			<span class='rg-hed'>Equivalency Table</span>
+			<span class='rg-hed'>Steel Grade Equivalency Table</span>
 			<span class='rg-dek'></span>
 		</caption>
 		<thead>
@@ -220,7 +220,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>28Mn6</td>
 					<td class='text ' data-title='Germany DIN'>28Mn6</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -229,7 +229,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235JR</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -238,7 +238,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD11</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -247,7 +247,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235JR</td>
 					<td class='text ' data-title='Germany DIN'>ST37-2</td>
 					<td class='text ' data-title='France AFNOR'>E24-2</td>
@@ -256,7 +256,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275JR</td>
 					<td class='text ' data-title='Germany DIN'>ST44-2</td>
 					<td class='text ' data-title='France AFNOR'>E28-2</td>
@@ -265,7 +265,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>E295</td>
 					<td class='text ' data-title='Germany DIN'>ST50-2</td>
 					<td class='text ' data-title='France AFNOR'>A50-2</td>
@@ -274,7 +274,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355JR</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -283,7 +283,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355M</td>
 					<td class='text ' data-title='Germany DIN'>STE355TM</td>
 					<td class='text ' data-title='France AFNOR'>E355R</td>
@@ -292,7 +292,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235JR(Cu)</td>
 					<td class='text ' data-title='Germany DIN'>ST37-2(Cu)</td>
 					<td class='text ' data-title='France AFNOR'>E24-2(Cu)</td>
@@ -301,7 +301,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235JR</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -310,7 +310,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD11</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -319,7 +319,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD12</td>
 					<td class='text ' data-title='Germany DIN'>STW23</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -328,7 +328,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235JRC</td>
 					<td class='text ' data-title='Germany DIN'>RST37-2</td>
 					<td class='text ' data-title='France AFNOR'>E24-2NE</td>
@@ -337,7 +337,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275J2</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -346,7 +346,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275JRC</td>
 					<td class='text ' data-title='Germany DIN'>ST44-2</td>
 					<td class='text ' data-title='France AFNOR'>E28-2</td>
@@ -355,7 +355,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355MC</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -364,7 +364,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S420MC</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -373,7 +373,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275JRC</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -382,7 +382,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD11</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -391,7 +391,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235JR</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -400,7 +400,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275JR</td>
 					<td class='text ' data-title='Germany DIN'>ST44-2</td>
 					<td class='text ' data-title='France AFNOR'>E28-2</td>
@@ -409,7 +409,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J2</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -418,7 +418,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235JR</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -427,7 +427,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S315MC</td>
 					<td class='text ' data-title='Germany DIN'>QSTE300TM</td>
 					<td class='text ' data-title='France AFNOR'>E315D</td>
@@ -436,7 +436,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355MC</td>
 					<td class='text ' data-title='Germany DIN'>QSTE360TM</td>
 					<td class='text ' data-title='France AFNOR'>E360D</td>
@@ -445,7 +445,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S420MC</td>
 					<td class='text ' data-title='Germany DIN'>QSTE420TM</td>
 					<td class='text ' data-title='France AFNOR'>E420D</td>
@@ -454,7 +454,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S460MC</td>
 					<td class='text ' data-title='Germany DIN'>QSTE460TM</td>
 					<td class='text ' data-title='France AFNOR'>E445D</td>
@@ -463,7 +463,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S500MC</td>
 					<td class='text ' data-title='Germany DIN'>QSTE500TM</td>
 					<td class='text ' data-title='France AFNOR'>E490D</td>
@@ -472,7 +472,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C35E</td>
 					<td class='text ' data-title='Germany DIN'>CK35</td>
 					<td class='text ' data-title='France AFNOR'>XC38</td>
@@ -481,7 +481,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C40E</td>
 					<td class='text ' data-title='Germany DIN'>CK40</td>
 					<td class='text ' data-title='France AFNOR'>XC42</td>
@@ -490,7 +490,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C45E</td>
 					<td class='text ' data-title='Germany DIN'>CK45</td>
 					<td class='text ' data-title='France AFNOR'>XC48</td>
@@ -499,7 +499,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C50E</td>
 					<td class='text ' data-title='Germany DIN'>CK50</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -508,7 +508,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C60E</td>
 					<td class='text ' data-title='Germany DIN'>CK60</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -517,7 +517,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C70E</td>
 					<td class='text ' data-title='Germany DIN'>CK70</td>
 					<td class='text ' data-title='France AFNOR'>XC70</td>
@@ -526,7 +526,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C80E</td>
 					<td class='text ' data-title='Germany DIN'>CK80</td>
 					<td class='text ' data-title='France AFNOR'>XC80</td>
@@ -535,7 +535,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J0</td>
 					<td class='text ' data-title='Germany DIN'>St52-3U</td>
 					<td class='text ' data-title='France AFNOR'>E36-3</td>
@@ -544,7 +544,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>E360</td>
 					<td class='text ' data-title='Germany DIN'>ST70-2</td>
 					<td class='text ' data-title='France AFNOR'>A70-2</td>
@@ -553,7 +553,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235JR</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -562,7 +562,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>20MnB5</td>
 					<td class='text ' data-title='Germany DIN'>22B2</td>
 					<td class='text ' data-title='France AFNOR'>20MnB5RR</td>
@@ -571,7 +571,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>30MnB5</td>
 					<td class='text ' data-title='Germany DIN'>28B2</td>
 					<td class='text ' data-title='France AFNOR'>30MnB5RR</td>
@@ -580,7 +580,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235J2C</td>
 					<td class='text ' data-title='Germany DIN'>ST37-3N</td>
 					<td class='text ' data-title='France AFNOR'>E24-4</td>
@@ -589,7 +589,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275J2C</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -598,7 +598,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355JR</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E36-2</td>
@@ -607,7 +607,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J2C</td>
 					<td class='text ' data-title='Germany DIN'>ST52-3N</td>
 					<td class='text ' data-title='France AFNOR'>E36-3</td>
@@ -616,7 +616,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD11</td>
 					<td class='text ' data-title='Germany DIN'>STW22</td>
 					<td class='text ' data-title='France AFNOR'>1C</td>
@@ -625,7 +625,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD12</td>
 					<td class='text ' data-title='Germany DIN'>STW23</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -634,7 +634,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD13</td>
 					<td class='text ' data-title='Germany DIN'>STW24</td>
 					<td class='text ' data-title='France AFNOR'>3C</td>
@@ -643,7 +643,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235J2</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -652,7 +652,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275J2</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -661,7 +661,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J2</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>A52FP</td>
@@ -670,7 +670,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD11(Cu)</td>
 					<td class='text ' data-title='Germany DIN'>STW22(Cu)</td>
 					<td class='text ' data-title='France AFNOR'>1C(Cu)</td>
@@ -679,7 +679,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J2(Cu)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>A52FP(Cu)</td>
@@ -688,7 +688,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P235GH</td>
 					<td class='text ' data-title='Germany DIN'>HI</td>
 					<td class='text ' data-title='France AFNOR'>A37CP</td>
@@ -697,7 +697,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P275SL</td>
 					<td class='text ' data-title='Germany DIN'>SPH275</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -706,7 +706,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P265GH</td>
 					<td class='text ' data-title='Germany DIN'>HII</td>
 					<td class='text ' data-title='France AFNOR'>A42CP</td>
@@ -715,7 +715,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>16Mo3</td>
 					<td class='text ' data-title='Germany DIN'>15Mo3</td>
 					<td class='text ' data-title='France AFNOR'>15D3</td>
@@ -724,7 +724,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P295GH</td>
 					<td class='text ' data-title='Germany DIN'>17Mn4</td>
 					<td class='text ' data-title='France AFNOR'>A48CP</td>
@@ -733,7 +733,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P355GH</td>
 					<td class='text ' data-title='Germany DIN'>A19Mn6</td>
 					<td class='text ' data-title='France AFNOR'>A52CP</td>
@@ -742,7 +742,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P355NH</td>
 					<td class='text ' data-title='Germany DIN'>WSTE355</td>
 					<td class='text ' data-title='France AFNOR'>A510 AP</td>
@@ -751,7 +751,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P355NL1</td>
 					<td class='text ' data-title='Germany DIN'>TSTE355</td>
 					<td class='text ' data-title='France AFNOR'>A510 FP</td>
@@ -760,7 +760,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>E335</td>
 					<td class='text ' data-title='Germany DIN'>ST60-2</td>
 					<td class='text ' data-title='France AFNOR'>A60-2</td>
@@ -769,7 +769,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275N</td>
 					<td class='text ' data-title='Germany DIN'>STE285</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -778,7 +778,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275NL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE285</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -787,7 +787,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355NL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE355</td>
 					<td class='text ' data-title='France AFNOR'>E355FP</td>
@@ -796,7 +796,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S420N</td>
 					<td class='text ' data-title='Germany DIN'>STE420</td>
 					<td class='text ' data-title='France AFNOR'>E420R</td>
@@ -805,7 +805,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S420NL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE420</td>
 					<td class='text ' data-title='France AFNOR'>E420FP</td>
@@ -814,7 +814,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S460N</td>
 					<td class='text ' data-title='Germany DIN'>STE460</td>
 					<td class='text ' data-title='France AFNOR'>E460R</td>
@@ -823,7 +823,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S460NL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE460</td>
 					<td class='text ' data-title='France AFNOR'>E460FP</td>
@@ -832,7 +832,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275M</td>
 					<td class='text ' data-title='Germany DIN'>STE285TM</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -841,7 +841,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275ML</td>
 					<td class='text ' data-title='Germany DIN'>TSTE285TM</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -850,7 +850,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355ML</td>
 					<td class='text ' data-title='Germany DIN'>TSTE355TM</td>
 					<td class='text ' data-title='France AFNOR'>E355FP</td>
@@ -859,7 +859,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S420M</td>
 					<td class='text ' data-title='Germany DIN'>STE420TM</td>
 					<td class='text ' data-title='France AFNOR'>E420R</td>
@@ -868,7 +868,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S420ML</td>
 					<td class='text ' data-title='Germany DIN'>TSTE420TM</td>
 					<td class='text ' data-title='France AFNOR'>E420FP</td>
@@ -877,7 +877,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>XS460M</td>
 					<td class='text ' data-title='Germany DIN'>STE460TM</td>
 					<td class='text ' data-title='France AFNOR'>E460R</td>
@@ -886,7 +886,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S460ML</td>
 					<td class='text ' data-title='Germany DIN'>TSTE460TM</td>
 					<td class='text ' data-title='France AFNOR'>E460FP</td>
@@ -895,7 +895,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235J0W</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E24W-3</td>
@@ -904,7 +904,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235J2W</td>
 					<td class='text ' data-title='Germany DIN'>WTST37-3</td>
 					<td class='text ' data-title='France AFNOR'>E24W-4</td>
@@ -913,7 +913,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J0WP</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E36W-A3</td>
@@ -922,7 +922,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J2WP</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E36W-A4</td>
@@ -931,7 +931,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J0W</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E36W-B3</td>
@@ -940,7 +940,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J2W(+N)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -949,7 +949,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J2W</td>
 					<td class='text ' data-title='Germany DIN'>WTST52-3</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -958,7 +958,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355K2W(+N)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E36W-B4</td>
@@ -967,7 +967,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355K2W</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -976,7 +976,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S460Q</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E460TR</td>
@@ -985,7 +985,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S460QL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE460V</td>
 					<td class='text ' data-title='France AFNOR'>E460TFP</td>
@@ -994,7 +994,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S500Q</td>
 					<td class='text ' data-title='Germany DIN'>STE500V</td>
 					<td class='text ' data-title='France AFNOR'>E500TR</td>
@@ -1003,7 +1003,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S500QL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE500V</td>
 					<td class='text ' data-title='France AFNOR'>E500TFP</td>
@@ -1012,7 +1012,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S550Q</td>
 					<td class='text ' data-title='Germany DIN'>STE550V</td>
 					<td class='text ' data-title='France AFNOR'>E550TR</td>
@@ -1021,7 +1021,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S550QL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE550V</td>
 					<td class='text ' data-title='France AFNOR'>E550TFP</td>
@@ -1030,7 +1030,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S620Q</td>
 					<td class='text ' data-title='Germany DIN'>STE620V</td>
 					<td class='text ' data-title='France AFNOR'>E620TR</td>
@@ -1039,7 +1039,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S620QL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE620V</td>
 					<td class='text ' data-title='France AFNOR'>E620TFP</td>
@@ -1048,7 +1048,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S690Q</td>
 					<td class='text ' data-title='Germany DIN'>STE690V</td>
 					<td class='text ' data-title='France AFNOR'>E690TR</td>
@@ -1057,7 +1057,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S690QL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE690V</td>
 					<td class='text ' data-title='France AFNOR'>E690TFP</td>
@@ -1066,7 +1066,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S890QL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE890V</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1075,7 +1075,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S960QL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE960V</td>
 					<td class='text ' data-title='France AFNOR'>E960T-11</td>
@@ -1084,7 +1084,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C22E</td>
 					<td class='text ' data-title='Germany DIN'>CK22</td>
 					<td class='text ' data-title='France AFNOR'>XC18</td>
@@ -1093,7 +1093,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C25E</td>
 					<td class='text ' data-title='Germany DIN'>CK25</td>
 					<td class='text ' data-title='France AFNOR'>XC25</td>
@@ -1102,7 +1102,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C30E</td>
 					<td class='text ' data-title='Germany DIN'>CK30</td>
 					<td class='text ' data-title='France AFNOR'>XC32</td>
@@ -1111,7 +1111,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C55E</td>
 					<td class='text ' data-title='Germany DIN'>CK55</td>
 					<td class='text ' data-title='France AFNOR'>XC55</td>
@@ -1120,7 +1120,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>38Cr2</td>
 					<td class='text ' data-title='Germany DIN'>38Cr2</td>
 					<td class='text ' data-title='France AFNOR'>38C2</td>
@@ -1129,7 +1129,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>38CrS2</td>
 					<td class='text ' data-title='Germany DIN'>38CrS2</td>
 					<td class='text ' data-title='France AFNOR'>38C2u</td>
@@ -1138,7 +1138,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>34Cr4</td>
 					<td class='text ' data-title='Germany DIN'>34Cr4</td>
 					<td class='text ' data-title='France AFNOR'>32C4</td>
@@ -1147,7 +1147,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>37Cr4</td>
 					<td class='text ' data-title='Germany DIN'>37Cr4</td>
 					<td class='text ' data-title='France AFNOR'>38C4</td>
@@ -1156,7 +1156,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>41Cr4</td>
 					<td class='text ' data-title='Germany DIN'>41Cr4</td>
 					<td class='text ' data-title='France AFNOR'>42C4</td>
@@ -1165,7 +1165,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>25CrMo4</td>
 					<td class='text ' data-title='Germany DIN'>25CrMo4</td>
 					<td class='text ' data-title='France AFNOR'>25CD4</td>
@@ -1174,7 +1174,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>34CrMo4</td>
 					<td class='text ' data-title='Germany DIN'>34CrMo4</td>
 					<td class='text ' data-title='France AFNOR'>34CD4</td>
@@ -1183,7 +1183,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>42CrMo4</td>
 					<td class='text ' data-title='Germany DIN'>42CrMo4</td>
 					<td class='text ' data-title='France AFNOR'>42CD4</td>
@@ -1192,7 +1192,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>50CrMo4</td>
 					<td class='text ' data-title='Germany DIN'>50CrMo4</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1201,7 +1201,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>36CrNiMo4</td>
 					<td class='text ' data-title='Germany DIN'>36CrNiMo4</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1210,7 +1210,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>34CrNiMo6</td>
 					<td class='text ' data-title='Germany DIN'>34CrNiMo6</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1219,7 +1219,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>30CrNiMo8</td>
 					<td class='text ' data-title='Germany DIN'>30CrNiMo8</td>
 					<td class='text ' data-title='France AFNOR'>30CDN8</td>
@@ -1228,7 +1228,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>36NiCrMo16</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>35NCD16</td>
@@ -1237,7 +1237,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S550MC</td>
 					<td class='text ' data-title='Germany DIN'>OSTE550TM</td>
 					<td class='text ' data-title='France AFNOR'>E560D</td>
@@ -1246,7 +1246,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S600MC</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E620D</td>
@@ -1255,7 +1255,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S700MC</td>
 					<td class='text ' data-title='Germany DIN'>OSTE690TM</td>
 					<td class='text ' data-title='France AFNOR'>E690D</td>
@@ -1264,7 +1264,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355</td>
 					<td class='text ' data-title='Germany DIN'>ST52-3</td>
 					<td class='text ' data-title='France AFNOR'>E36</td>
@@ -1273,7 +1273,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S460</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1282,7 +1282,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC01</td>
 					<td class='text ' data-title='Germany DIN'>ST12</td>
 					<td class='text ' data-title='France AFNOR'>C</td>
@@ -1291,7 +1291,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC03</td>
 					<td class='text ' data-title='Germany DIN'>ST13</td>
 					<td class='text ' data-title='France AFNOR'>E</td>
@@ -1300,7 +1300,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC04</td>
 					<td class='text ' data-title='Germany DIN'>ST14</td>
 					<td class='text ' data-title='France AFNOR'>ES</td>
@@ -1309,7 +1309,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC05</td>
 					<td class='text ' data-title='Germany DIN'>ST15</td>
 					<td class='text ' data-title='France AFNOR'>SES</td>
@@ -1318,7 +1318,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC04EK</td>
 					<td class='text ' data-title='Germany DIN'>EK2</td>
 					<td class='text ' data-title='France AFNOR'>EME</td>
@@ -1327,7 +1327,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC01</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1336,7 +1336,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC04</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1345,7 +1345,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD13(B)</td>
 					<td class='text ' data-title='Germany DIN'>STW24(B)</td>
 					<td class='text ' data-title='France AFNOR'>3C(B)</td>
@@ -1354,7 +1354,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P245NB</td>
 					<td class='text ' data-title='Germany DIN'>H I</td>
 					<td class='text ' data-title='France AFNOR'>BS 1</td>
@@ -1363,7 +1363,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P265NB</td>
 					<td class='text ' data-title='Germany DIN'>H II</td>
 					<td class='text ' data-title='France AFNOR'>BS 2</td>
@@ -1372,7 +1372,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P310NB</td>
 					<td class='text ' data-title='Germany DIN'>17Mn4</td>
 					<td class='text ' data-title='France AFNOR'>BS 3</td>
@@ -1381,7 +1381,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P355NB</td>
 					<td class='text ' data-title='Germany DIN'>19Mn6</td>
 					<td class='text ' data-title='France AFNOR'>BS 4</td>
@@ -1390,7 +1390,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD11</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1399,7 +1399,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DD14</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1408,7 +1408,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355K2</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1417,7 +1417,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>51CrV4</td>
 					<td class='text ' data-title='Germany DIN'>50CrV4</td>
 					<td class='text ' data-title='France AFNOR'>50CV4</td>
@@ -1426,7 +1426,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>C45E</td>
 					<td class='text ' data-title='Germany DIN'>CK45</td>
 					<td class='text ' data-title='France AFNOR'>XC48</td>
@@ -1435,7 +1435,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355N</td>
 					<td class='text ' data-title='Germany DIN'>STE355</td>
 					<td class='text ' data-title='France AFNOR'>E355R</td>
@@ -1444,7 +1444,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355NL</td>
 					<td class='text ' data-title='Germany DIN'>TSTE355</td>
 					<td class='text ' data-title='France AFNOR'>E355FP</td>
@@ -1453,7 +1453,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235J0</td>
 					<td class='text ' data-title='Germany DIN'>ST37-3U</td>
 					<td class='text ' data-title='France AFNOR'>E24-3</td>
@@ -1462,7 +1462,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275J0</td>
 					<td class='text ' data-title='Germany DIN'>ST44-3U</td>
 					<td class='text ' data-title='France AFNOR'>E28-3</td>
@@ -1471,7 +1471,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S235J2(+N)</td>
 					<td class='text ' data-title='Germany DIN'>ST37-3N</td>
 					<td class='text ' data-title='France AFNOR'>E24-4</td>
@@ -1480,7 +1480,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S275J2(+N)</td>
 					<td class='text ' data-title='Germany DIN'>ST44-3N</td>
 					<td class='text ' data-title='France AFNOR'>E28-4</td>
@@ -1489,7 +1489,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355J2(+N)</td>
 					<td class='text ' data-title='Germany DIN'>ST52-3N</td>
 					<td class='text ' data-title='France AFNOR'>E36-3</td>
@@ -1498,7 +1498,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S355K2(+N)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>E36-4</td>
@@ -1507,7 +1507,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC05</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1516,7 +1516,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC06</td>
 					<td class='text ' data-title='Germany DIN'>IF18</td>
 					<td class='text ' data-title='France AFNOR'>IF</td>
@@ -1525,7 +1525,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC01</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1534,7 +1534,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC03</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1543,7 +1543,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC04</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1552,7 +1552,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HC260LA</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE260</td>
 					<td class='text ' data-title='France AFNOR'>E240C</td>
@@ -1561,7 +1561,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HC300LA</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE300</td>
 					<td class='text ' data-title='France AFNOR'>E280C</td>
@@ -1570,7 +1570,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HC340LA</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE340</td>
 					<td class='text ' data-title='France AFNOR'>E315C</td>
@@ -1579,7 +1579,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HC380LA</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE380</td>
 					<td class='text ' data-title='France AFNOR'>E355C</td>
@@ -1588,7 +1588,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HC420LA</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE420</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1597,7 +1597,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC04</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1606,7 +1606,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC05</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1615,7 +1615,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC06</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1624,7 +1624,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC01EK</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1633,7 +1633,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC04EK</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1642,7 +1642,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC06ED</td>
 					<td class='text ' data-title='Germany DIN'>ED4</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1651,7 +1651,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HCT600X(DP600)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>XE360B</td>
@@ -1660,7 +1660,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC07</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1669,7 +1669,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC06EK</td>
 					<td class='text ' data-title='Germany DIN'>EK4</td>
 					<td class='text ' data-title='France AFNOR'>EMES</td>
@@ -1678,7 +1678,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC03ED</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1687,7 +1687,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DC04ED</td>
 					<td class='text ' data-title='Germany DIN'>ED3</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1696,7 +1696,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HCT450X(DP450)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1705,7 +1705,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HCT500X(DP500)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>XE300B</td>
@@ -1714,7 +1714,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HCT780X(DP800)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>XE450B</td>
@@ -1723,7 +1723,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DX51D+Z</td>
 					<td class='text ' data-title='Germany DIN'>ST02Z</td>
 					<td class='text ' data-title='France AFNOR'>GC</td>
@@ -1732,7 +1732,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DX52D+Z</td>
 					<td class='text ' data-title='Germany DIN'>ST03Z</td>
 					<td class='text ' data-title='France AFNOR'>GE</td>
@@ -1741,7 +1741,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DX53D+Z</td>
 					<td class='text ' data-title='Germany DIN'>ST04Z</td>
 					<td class='text ' data-title='France AFNOR'>GES</td>
@@ -1750,7 +1750,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DX54D+Z</td>
 					<td class='text ' data-title='Germany DIN'>ST06Z</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1759,7 +1759,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DX56D+Z</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1768,7 +1768,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S220GD+Z</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>C230</td>
@@ -1777,7 +1777,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S250GD+Z</td>
 					<td class='text ' data-title='Germany DIN'>STE250-2Z</td>
 					<td class='text ' data-title='France AFNOR'>C250</td>
@@ -1786,7 +1786,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S280GD+Z</td>
 					<td class='text ' data-title='Germany DIN'>STE280-2Z</td>
 					<td class='text ' data-title='France AFNOR'>C280</td>
@@ -1795,7 +1795,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S320GD+Z</td>
 					<td class='text ' data-title='Germany DIN'>STE320-3Z</td>
 					<td class='text ' data-title='France AFNOR'>C320</td>
@@ -1804,7 +1804,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S350GD+Z</td>
 					<td class='text ' data-title='Germany DIN'>STE350-3Z</td>
 					<td class='text ' data-title='France AFNOR'>C350</td>
@@ -1813,7 +1813,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HX220YD+Z</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1822,7 +1822,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HX260LAD+Z</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE260</td>
 					<td class='text ' data-title='France AFNOR'>E240C - E260C</td>
@@ -1831,7 +1831,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HX300LAD+Z</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE300</td>
 					<td class='text ' data-title='France AFNOR'>E280C - E315C</td>
@@ -1840,7 +1840,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HX340LAD+Z</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE340</td>
 					<td class='text ' data-title='France AFNOR'>E555C</td>
@@ -1849,7 +1849,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HX380LAD+Z</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE380</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1858,7 +1858,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HCT600X+Z(DP600+Z)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1867,7 +1867,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S550GD+Z</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'>C550</td>
@@ -1876,7 +1876,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HX420LAD+Z</td>
 					<td class='text ' data-title='Germany DIN'>ZSTE420</td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1885,7 +1885,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>HCT450X+Z(DP450+Z)</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1894,7 +1894,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P235S</td>
 					<td class='text ' data-title='Germany DIN'>SPH 235</td>
 					<td class='text ' data-title='France AFNOR'>A 37 AP</td>
@@ -1903,7 +1903,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>P265S</td>
 					<td class='text ' data-title='Germany DIN'>SPH 265</td>
 					<td class='text ' data-title='France AFNOR'>A 42 AP</td>
@@ -1912,7 +1912,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>DP600</td>
 					<td class='text ' data-title='Germany DIN'></td>
 					<td class='text ' data-title='France AFNOR'></td>
@@ -1921,7 +1921,7 @@ td.number {
 				</tr>
 			
 
-				<tr class='hide-mobile'>
+				<tr class=''>
 					<td class='text ' data-title='Europe EN'>S550MC</td>
 					<td class='text ' data-title='Germany DIN'>OSTE550TM</td>
 					<td class='text ' data-title='France AFNOR'>E560D</td>
