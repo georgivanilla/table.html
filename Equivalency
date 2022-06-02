@@ -88,9 +88,9 @@ td.number {
 }
 
 /* media queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 0px) {
   .rg-container {
-    max-width: 600px;
+    max-width: 0px;
     margin: 0 auto;
   }
   table.rg-table {
