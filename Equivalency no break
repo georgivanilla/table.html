@@ -1,0 +1,1913 @@
+<style>
+	/* info (hed, dek, source, credit) */
+.rg-container {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 1em 0.5em;
+  color: #222;
+}
+.rg-header {
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.rg-header > * {
+  display: block;
+}
+.rg-hed {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.rg-dek {
+  font-size: 1em;
+}
+
+.rg-source {
+  margin: 0;
+  font-size: 0.75em;
+  text-align: right;
+}
+.rg-source .pre-colon {
+  text-transform: uppercase;
+}
+
+.rg-source .post-colon {
+  font-weight: bold;
+}
+
+/* table */
+table.rg-table {
+  width: 100%;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table.rg-table tr {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  color: #333;
+}
+table.rg-table thead {
+  border-bottom: 3px solid #ddd;
+}
+table.rg-table tr {
+  border-bottom: 1px solid #ddd;
+  color: #222;
+}
+table.rg-table tr.highlight {
+  background-color: #dcf1f0 !important;
+}
+table.rg-table.zebra tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+table.rg-table th {
+  font-weight: bold;
+  padding: 0.35em;
+  font-size: 0.9em;
+}
+table.rg-table td {
+  padding: 0.35em;
+  font-size: 0.9em;
+}
+table.rg-table .highlight td {
+  font-weight: bold;
+}
+table.rg-table th.number,
+td.number {
+  text-align: right;
+}
+
+/* media queries */
+@media screen and (max-width: 0px) {
+  .rg-container {
+    max-width: 0px;
+    margin: 0 auto;
+  }
+  table.rg-table {
+    width: 100%;
+  }
+  table.rg-table tr.hide-mobile,
+  table.rg-table th.hide-mobile,
+  table.rg-table td.hide-mobile {
+    display: none;
+  }
+  table.rg-table thead {
+    display: none;
+  }
+  table.rg-table tbody {
+    width: 100%;
+  }
+  table.rg-table tr,
+  table.rg-table th,
+  table.rg-table td {
+    display: block;
+    padding: 0;
+  }
+  table.rg-table tr {
+    border-bottom: none;
+    margin: 0 0 1em 0;
+    padding: 0.5em;
+  }
+  table.rg-table tr.highlight {
+    background-color: inherit !important;
+  }
+  table.rg-table.zebra tr:nth-child(even) {
+    background-color: transparent;
+  }
+  table.rg-table.zebra td:nth-child(even) {
+    background-color: #f6f6f6;
+  }
+  table.rg-table tr:nth-child(even) {
+    background-color: transparent;
+  }
+  table.rg-table td {
+    padding: 0.5em 0 0.25em 0;
+    border-bottom: 1px dotted #ccc;
+    text-align: right;
+  }
+  table.rg-table td[data-title]:before {
+    content: attr(data-title);
+    font-weight: bold;
+    display: inline-block;
+    content: attr(data-title);
+    float: left;
+    margin-right: 0.5em;
+    font-size: 0.95em;
+  }
+  table.rg-table td:last-child {
+    padding-right: 0;
+    border-bottom: 2px solid #ccc;
+  }
+  table.rg-table td:empty {
+    display: none;
+  }
+  table.rg-table .highlight td {
+    background-color: inherit;
+    font-weight: normal;
+  }
+}
+
+</style>
+<div class='rg-container'>
+	<table class='rg-table zebra' summary='Steel Grade Equivalency Table'>
+		<caption class='rg-header'>
+			<span class='rg-hed'>Steel Grade Equivalency Table</span>
+			<span class='rg-dek'></span>
+		</caption>
+		<thead>
+			<tr>
+				<th class='text '>Europe EN</th>
+				<th class='text '>Germany DIN</th>
+				<th class='text '>France AFNOR</th>
+				<th class='text '>Italy UNI</th>
+				<th class='text '>USA SAE/AISI</th>
+				<th class='text '>Usual Finish</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C10E</td>
+					<td class='text ' data-title='Germany DIN'>CK10</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>C10</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1010</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C120U</td>
+					<td class='text ' data-title='Germany DIN'>C125W</td>
+					<td class='text ' data-title='France AFNOR'>C120U</td>
+					<td class='text ' data-title='Italy UNI'>C120KU</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C12E</td>
+					<td class='text ' data-title='Germany DIN'>CK12</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>C12</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1012</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C15D</td>
+					<td class='text ' data-title='Germany DIN'>C15</td>
+					<td class='text ' data-title='France AFNOR'>CC12</td>
+					<td class='text ' data-title='Italy UNI'>C15</td>
+					<td class='text ' data-title='USA SAE/AISI'>1010</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C15E</td>
+					<td class='text ' data-title='Germany DIN'>CK15</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>C15</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1015</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C20E</td>
+					<td class='text ' data-title='Germany DIN'>CK20</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>C20</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1020</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C22E</td>
+					<td class='text ' data-title='Germany DIN'>CK22</td>
+					<td class='text ' data-title='France AFNOR'>XC18</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C25E</td>
+					<td class='text ' data-title='Germany DIN'>CK25</td>
+					<td class='text ' data-title='France AFNOR'>XC25</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C30E</td>
+					<td class='text ' data-title='Germany DIN'>CK30</td>
+					<td class='text ' data-title='France AFNOR'>XC32</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C35E</td>
+					<td class='text ' data-title='Germany DIN'>CK35</td>
+					<td class='text ' data-title='France AFNOR'>XC38</td>
+					<td class='text ' data-title='Italy UNI'>C35</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1035</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C40E</td>
+					<td class='text ' data-title='Germany DIN'>CK40</td>
+					<td class='text ' data-title='France AFNOR'>XC42</td>
+					<td class='text ' data-title='Italy UNI'>C40</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1040</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C45E</td>
+					<td class='text ' data-title='Germany DIN'>CK45</td>
+					<td class='text ' data-title='France AFNOR'>XC48</td>
+					<td class='text ' data-title='Italy UNI'>C45</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1045</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C45E</td>
+					<td class='text ' data-title='Germany DIN'>CK45</td>
+					<td class='text ' data-title='France AFNOR'>XC48</td>
+					<td class='text ' data-title='Italy UNI'>C45</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1042-1045</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C50E</td>
+					<td class='text ' data-title='Germany DIN'>CK50</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>C50</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1050</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C55E</td>
+					<td class='text ' data-title='Germany DIN'>CK55</td>
+					<td class='text ' data-title='France AFNOR'>XC55</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1055</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C60E</td>
+					<td class='text ' data-title='Germany DIN'>CK60</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>C60</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1060</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C70E</td>
+					<td class='text ' data-title='Germany DIN'>CK70</td>
+					<td class='text ' data-title='France AFNOR'>XC70</td>
+					<td class='text ' data-title='Italy UNI'>C70</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1070</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C80E</td>
+					<td class='text ' data-title='Germany DIN'>CK80</td>
+					<td class='text ' data-title='France AFNOR'>XC80</td>
+					<td class='text ' data-title='Italy UNI'>C80</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1080</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>C8E</td>
+					<td class='text ' data-title='Germany DIN'>CK8</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>C8</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1008</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC01</td>
+					<td class='text ' data-title='Germany DIN'>ST12</td>
+					<td class='text ' data-title='France AFNOR'>C</td>
+					<td class='text ' data-title='Italy UNI'>FEP01</td>
+					<td class='text ' data-title='USA SAE/AISI'>A366/CQ</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC01EK</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>TYPE I</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC03</td>
+					<td class='text ' data-title='Germany DIN'>ST13</td>
+					<td class='text ' data-title='France AFNOR'>E</td>
+					<td class='text ' data-title='Italy UNI'>FEP02</td>
+					<td class='text ' data-title='USA SAE/AISI'>A619/DQ</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC03ED</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>FEP04S</td>
+					<td class='text ' data-title='USA SAE/AISI'>TYPE II</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC04</td>
+					<td class='text ' data-title='Germany DIN'>ST14</td>
+					<td class='text ' data-title='France AFNOR'>ES</td>
+					<td class='text ' data-title='Italy UNI'>FEP04</td>
+					<td class='text ' data-title='USA SAE/AISI'>A620/DQSK</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC04ED</td>
+					<td class='text ' data-title='Germany DIN'>ED3</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>TYPE II</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC04EK</td>
+					<td class='text ' data-title='Germany DIN'>EK2</td>
+					<td class='text ' data-title='France AFNOR'>EME</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>TYPE I</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC05</td>
+					<td class='text ' data-title='Germany DIN'>ST15</td>
+					<td class='text ' data-title='France AFNOR'>SES</td>
+					<td class='text ' data-title='Italy UNI'>FEP05</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC06</td>
+					<td class='text ' data-title='Germany DIN'>IF18</td>
+					<td class='text ' data-title='France AFNOR'>IF</td>
+					<td class='text ' data-title='Italy UNI'>FEP06</td>
+					<td class='text ' data-title='USA SAE/AISI'>EDDS</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC06ED</td>
+					<td class='text ' data-title='Germany DIN'>ED4</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>TYPE III</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC06EK</td>
+					<td class='text ' data-title='Germany DIN'>EK4</td>
+					<td class='text ' data-title='France AFNOR'>EMES</td>
+					<td class='text ' data-title='Italy UNI'>FEP02S</td>
+					<td class='text ' data-title='USA SAE/AISI'>TYPE III</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DC07</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>FEP07</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DD11</td>
+					<td class='text ' data-title='Germany DIN'>STW22</td>
+					<td class='text ' data-title='France AFNOR'>1C</td>
+					<td class='text ' data-title='Italy UNI'>FEP11</td>
+					<td class='text ' data-title='USA SAE/AISI'>CS</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DD11(Cu)</td>
+					<td class='text ' data-title='Germany DIN'>STW22(Cu)</td>
+					<td class='text ' data-title='France AFNOR'>1C(Cu)</td>
+					<td class='text ' data-title='Italy UNI'>FEP11(Cu)</td>
+					<td class='text ' data-title='USA SAE/AISI'>CS(Cu)</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DD12</td>
+					<td class='text ' data-title='Germany DIN'>STW23</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>FEP12</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DD13</td>
+					<td class='text ' data-title='Germany DIN'>STW24</td>
+					<td class='text ' data-title='France AFNOR'>3C</td>
+					<td class='text ' data-title='Italy UNI'>FEP13</td>
+					<td class='text ' data-title='USA SAE/AISI'>DS</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DD13(B)</td>
+					<td class='text ' data-title='Germany DIN'>STW24(B)</td>
+					<td class='text ' data-title='France AFNOR'>3C(B)</td>
+					<td class='text ' data-title='Italy UNI'>FEP13(B)</td>
+					<td class='text ' data-title='USA SAE/AISI'>DS(B)</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DX51D</td>
+					<td class='text ' data-title='Germany DIN'>ST02Z</td>
+					<td class='text ' data-title='France AFNOR'>GC</td>
+					<td class='text ' data-title='Italy UNI'>FEP02G</td>
+					<td class='text ' data-title='USA SAE/AISI'>LFQ</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DX52D</td>
+					<td class='text ' data-title='Germany DIN'>ST03Z</td>
+					<td class='text ' data-title='France AFNOR'>GE</td>
+					<td class='text ' data-title='Italy UNI'>FEP03G</td>
+					<td class='text ' data-title='USA SAE/AISI'>DQ</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DX53D</td>
+					<td class='text ' data-title='Germany DIN'>ST04Z</td>
+					<td class='text ' data-title='France AFNOR'>GES</td>
+					<td class='text ' data-title='Italy UNI'>FEP05G</td>
+					<td class='text ' data-title='USA SAE/AISI'>DQSK</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>DX54D</td>
+					<td class='text ' data-title='Germany DIN'>ST06Z</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>FEP06G</td>
+					<td class='text ' data-title='USA SAE/AISI'>DDS</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>E295</td>
+					<td class='text ' data-title='Germany DIN'>ST50-2</td>
+					<td class='text ' data-title='France AFNOR'>A50-2</td>
+					<td class='text ' data-title='Italy UNI'>FEE290</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>E335</td>
+					<td class='text ' data-title='Germany DIN'>ST60-2</td>
+					<td class='text ' data-title='France AFNOR'>A60-2</td>
+					<td class='text ' data-title='Italy UNI'>FEE590</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>E360</td>
+					<td class='text ' data-title='Germany DIN'>ST70-2</td>
+					<td class='text ' data-title='France AFNOR'>A70-2</td>
+					<td class='text ' data-title='Italy UNI'>FEE690</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HC260LA</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE260</td>
+					<td class='text ' data-title='France AFNOR'>E240C</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HC300LA</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE300</td>
+					<td class='text ' data-title='France AFNOR'>E280C</td>
+					<td class='text ' data-title='Italy UNI'>FEE275F</td>
+					<td class='text ' data-title='USA SAE/AISI'>Gr. 45</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HC340LA</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE340</td>
+					<td class='text ' data-title='France AFNOR'>E315C</td>
+					<td class='text ' data-title='Italy UNI'>FEE315F</td>
+					<td class='text ' data-title='USA SAE/AISI'>Gr. 50</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HC380LA</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE380</td>
+					<td class='text ' data-title='France AFNOR'>E355C</td>
+					<td class='text ' data-title='Italy UNI'>FEE355F</td>
+					<td class='text ' data-title='USA SAE/AISI'>Gr. 55</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HC420LA</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE420</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>FEE420F</td>
+					<td class='text ' data-title='USA SAE/AISI'>Gr. 60</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HCT450X(DP450)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>FEE450DPF ZNT/2S</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HCT450X(DP450)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>FEE450DPF</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HCT500X(DP500)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>XE300B</td>
+					<td class='text ' data-title='Italy UNI'>FEE500DPF</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HCT600X (DP600)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>FEE600DPF ZNT/2S</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HCT600X(DP600)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>XE360B</td>
+					<td class='text ' data-title='Italy UNI'>FEE600DPF</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HCT780X(DP800)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>XE450B</td>
+					<td class='text ' data-title='Italy UNI'>FEE800DPF</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HX260LAD</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE260</td>
+					<td class='text ' data-title='France AFNOR'>E240C - E260C</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HX300LAD</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE300</td>
+					<td class='text ' data-title='France AFNOR'>E280C - E315C</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>Gr. 45</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HX340LAD</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE340</td>
+					<td class='text ' data-title='France AFNOR'>E555C</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>Gr. 50</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HX380LAD</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE380</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>Gr. 55</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>HX420LAD</td>
+					<td class='text ' data-title='Germany DIN'>ZSTE420</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>Gr. 60</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P235GH</td>
+					<td class='text ' data-title='Germany DIN'>HI</td>
+					<td class='text ' data-title='France AFNOR'>A37CP</td>
+					<td class='text ' data-title='Italy UNI'>FE360-1KW</td>
+					<td class='text ' data-title='USA SAE/AISI'>A285 Gr. C - A414 Gr. C</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P235S</td>
+					<td class='text ' data-title='Germany DIN'>SPH 235</td>
+					<td class='text ' data-title='France AFNOR'>A 37 AP</td>
+					<td class='text ' data-title='Italy UNI'>Fe 360-2KW</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P245NB</td>
+					<td class='text ' data-title='Germany DIN'>H I</td>
+					<td class='text ' data-title='France AFNOR'>BS 1</td>
+					<td class='text ' data-title='Italy UNI'>FEE24 KR</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P265GH</td>
+					<td class='text ' data-title='Germany DIN'>HII</td>
+					<td class='text ' data-title='France AFNOR'>A42CP</td>
+					<td class='text ' data-title='Italy UNI'>FE410-1KW</td>
+					<td class='text ' data-title='USA SAE/AISI'>A414 Gr. E</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P265NB</td>
+					<td class='text ' data-title='Germany DIN'>H II</td>
+					<td class='text ' data-title='France AFNOR'>BS 2</td>
+					<td class='text ' data-title='Italy UNI'>FEE27 KR</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P265S</td>
+					<td class='text ' data-title='Germany DIN'>SPH 265</td>
+					<td class='text ' data-title='France AFNOR'>A 42 AP</td>
+					<td class='text ' data-title='Italy UNI'>Fe 410-2KW</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P275SL</td>
+					<td class='text ' data-title='Germany DIN'>SPH275</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P295GH</td>
+					<td class='text ' data-title='Germany DIN'>17Mn4</td>
+					<td class='text ' data-title='France AFNOR'>A48CP</td>
+					<td class='text ' data-title='Italy UNI'>FE460-1KW</td>
+					<td class='text ' data-title='USA SAE/AISI'>A299 A414 Gr. F</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P310NB</td>
+					<td class='text ' data-title='Germany DIN'>17Mn4</td>
+					<td class='text ' data-title='France AFNOR'>BS 3</td>
+					<td class='text ' data-title='Italy UNI'>FEE31 KR</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P355GH</td>
+					<td class='text ' data-title='Germany DIN'>A19Mn6</td>
+					<td class='text ' data-title='France AFNOR'>A52CP</td>
+					<td class='text ' data-title='Italy UNI'>FE510-1KW</td>
+					<td class='text ' data-title='USA SAE/AISI'>A414 Gr. G</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P355NB</td>
+					<td class='text ' data-title='Germany DIN'>19Mn6</td>
+					<td class='text ' data-title='France AFNOR'>BS 4</td>
+					<td class='text ' data-title='Italy UNI'>FEE35 KR</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P355NH</td>
+					<td class='text ' data-title='Germany DIN'>WSTE355</td>
+					<td class='text ' data-title='France AFNOR'>A510 AP</td>
+					<td class='text ' data-title='Italy UNI'>FEE355 KW</td>
+					<td class='text ' data-title='USA SAE/AISI'>A516 Gr. 70</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>P355NL1</td>
+					<td class='text ' data-title='Germany DIN'>TSTE355</td>
+					<td class='text ' data-title='France AFNOR'>A510 FP</td>
+					<td class='text ' data-title='Italy UNI'>FEE355 KT</td>
+					<td class='text ' data-title='USA SAE/AISI'>A516 Gr. 70</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S220GD</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>C230</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>SQ-GRADE230</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235J0</td>
+					<td class='text ' data-title='Germany DIN'>ST37-3U</td>
+					<td class='text ' data-title='France AFNOR'>E24-3</td>
+					<td class='text ' data-title='Italy UNI'>FE360C</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235J0W</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E24W-3</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235J2</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A36</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235J2(+N)</td>
+					<td class='text ' data-title='Germany DIN'>ST37-3N</td>
+					<td class='text ' data-title='France AFNOR'>E24-4</td>
+					<td class='text ' data-title='Italy UNI'>FE360D</td>
+					<td class='text ' data-title='USA SAE/AISI'>A284 Gr. D</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235J2C</td>
+					<td class='text ' data-title='Germany DIN'>ST37-3N</td>
+					<td class='text ' data-title='France AFNOR'>E24-4</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235J2W</td>
+					<td class='text ' data-title='Germany DIN'>WTST37-3</td>
+					<td class='text ' data-title='France AFNOR'>E24W-4</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235JR</td>
+					<td class='text ' data-title='Germany DIN'>ST37-2</td>
+					<td class='text ' data-title='France AFNOR'>E24-2</td>
+					<td class='text ' data-title='Italy UNI'>FE360B</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1015</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235JR(Cu)</td>
+					<td class='text ' data-title='Germany DIN'>ST37-2(Cu)</td>
+					<td class='text ' data-title='France AFNOR'>E24-2(Cu)</td>
+					<td class='text ' data-title='Italy UNI'>FE360B(Cu)</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1015(Cu)</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S235JRC</td>
+					<td class='text ' data-title='Germany DIN'>RST37-2</td>
+					<td class='text ' data-title='France AFNOR'>E24-2NE</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S250GD</td>
+					<td class='text ' data-title='Germany DIN'>STE250-2Z</td>
+					<td class='text ' data-title='France AFNOR'>C250</td>
+					<td class='text ' data-title='Italy UNI'>FEE250G</td>
+					<td class='text ' data-title='USA SAE/AISI'>SQ-GRADE255</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S275J0</td>
+					<td class='text ' data-title='Germany DIN'>ST44-3U</td>
+					<td class='text ' data-title='France AFNOR'>E28-3</td>
+					<td class='text ' data-title='Italy UNI'>FE430C</td>
+					<td class='text ' data-title='USA SAE/AISI'>A572 Gr. 42</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S275J2(+N)</td>
+					<td class='text ' data-title='Germany DIN'>ST44-3N</td>
+					<td class='text ' data-title='France AFNOR'>E28-4</td>
+					<td class='text ' data-title='Italy UNI'>FE430D</td>
+					<td class='text ' data-title='USA SAE/AISI'>A572 Gr. 42,50</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S275JR</td>
+					<td class='text ' data-title='Germany DIN'>ST44-2</td>
+					<td class='text ' data-title='France AFNOR'>E28-2</td>
+					<td class='text ' data-title='Italy UNI'>FE430B</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1020</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S275JRC</td>
+					<td class='text ' data-title='Germany DIN'>ST44-2</td>
+					<td class='text ' data-title='France AFNOR'>E28-2</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S275M</td>
+					<td class='text ' data-title='Germany DIN'>STE285TM</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S275ML</td>
+					<td class='text ' data-title='Germany DIN'>TSTE285TM</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S275N</td>
+					<td class='text ' data-title='Germany DIN'>STE285</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S275NL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE285</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A633A</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S280GD</td>
+					<td class='text ' data-title='Germany DIN'>STE280-2Z</td>
+					<td class='text ' data-title='France AFNOR'>C280</td>
+					<td class='text ' data-title='Italy UNI'>FEE280G</td>
+					<td class='text ' data-title='USA SAE/AISI'>SQ-GRADE275</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S315MC</td>
+					<td class='text ' data-title='Germany DIN'>QSTE300TM</td>
+					<td class='text ' data-title='France AFNOR'>E315D</td>
+					<td class='text ' data-title='Italy UNI'>FEE315</td>
+					<td class='text ' data-title='USA SAE/AISI'>045XLK</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S320GD</td>
+					<td class='text ' data-title='Germany DIN'>STE320-3Z</td>
+					<td class='text ' data-title='France AFNOR'>C320</td>
+					<td class='text ' data-title='Italy UNI'>FEE320G</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S350GD</td>
+					<td class='text ' data-title='Germany DIN'>STE350-3Z</td>
+					<td class='text ' data-title='France AFNOR'>C350</td>
+					<td class='text ' data-title='Italy UNI'>FEE350G</td>
+					<td class='text ' data-title='USA SAE/AISI'>SQ-GRADE340</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355</td>
+					<td class='text ' data-title='Germany DIN'>ST52-3</td>
+					<td class='text ' data-title='France AFNOR'>E36</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>GR50</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J0</td>
+					<td class='text ' data-title='Germany DIN'>St52-3U</td>
+					<td class='text ' data-title='France AFNOR'>E36-3</td>
+					<td class='text ' data-title='Italy UNI'>Fe510C</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J0W</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E36W-B3</td>
+					<td class='text ' data-title='Italy UNI'>FE355W</td>
+					<td class='text ' data-title='USA SAE/AISI'>A70950W</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J0WP</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E36W-A3</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J2</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>A52FP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J2(+N)</td>
+					<td class='text ' data-title='Germany DIN'>ST52-3N</td>
+					<td class='text ' data-title='France AFNOR'>E36-3</td>
+					<td class='text ' data-title='Italy UNI'>FE510D</td>
+					<td class='text ' data-title='USA SAE/AISI'>A572 Gr. 50</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J2(Cu)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>A52FP(Cu)</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J2C</td>
+					<td class='text ' data-title='Germany DIN'>ST52-3N</td>
+					<td class='text ' data-title='France AFNOR'>E36-3</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J2W</td>
+					<td class='text ' data-title='Germany DIN'>WTST52-3</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A70950W</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355J2WP</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E36W-A4</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355JR</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E36-2</td>
+					<td class='text ' data-title='Italy UNI'>FE510B</td>
+					<td class='text ' data-title='USA SAE/AISI'>A633 Gr. A,C,D</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355K2(+N)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E36-4</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355K2W</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A70950W</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355K2W(+N)</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E36W-B4</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355M</td>
+					<td class='text ' data-title='Germany DIN'>STE355TM</td>
+					<td class='text ' data-title='France AFNOR'>E355R</td>
+					<td class='text ' data-title='Italy UNI'>FEE355KGTM</td>
+					<td class='text ' data-title='USA SAE/AISI'>A572 Gr. C</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355MC</td>
+					<td class='text ' data-title='Germany DIN'>QSTE360TM</td>
+					<td class='text ' data-title='France AFNOR'>E360D</td>
+					<td class='text ' data-title='Italy UNI'>FEE355</td>
+					<td class='text ' data-title='USA SAE/AISI'>GR50</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355ML</td>
+					<td class='text ' data-title='Germany DIN'>TSTE355TM</td>
+					<td class='text ' data-title='France AFNOR'>E355FP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A945 Gr. 50</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355N</td>
+					<td class='text ' data-title='Germany DIN'>STE355</td>
+					<td class='text ' data-title='France AFNOR'>E355R</td>
+					<td class='text ' data-title='Italy UNI'>FEE355KGN</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355NL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE355</td>
+					<td class='text ' data-title='France AFNOR'>E355FP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A633C</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S355NL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE355</td>
+					<td class='text ' data-title='France AFNOR'>E355FP</td>
+					<td class='text ' data-title='Italy UNI'>FEE355KTN</td>
+					<td class='text ' data-title='USA SAE/AISI'>A633 Gr. C, D</td>
+					<td class='text ' data-title='Usual Finish'>CR-Cold Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S420M</td>
+					<td class='text ' data-title='Germany DIN'>STE420TM</td>
+					<td class='text ' data-title='France AFNOR'>E420R</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S420MC</td>
+					<td class='text ' data-title='Germany DIN'>QSTE420TM</td>
+					<td class='text ' data-title='France AFNOR'>E420D</td>
+					<td class='text ' data-title='Italy UNI'>FEE420</td>
+					<td class='text ' data-title='USA SAE/AISI'>GR60</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S420ML</td>
+					<td class='text ' data-title='Germany DIN'>TSTE420TM</td>
+					<td class='text ' data-title='France AFNOR'>E420FP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A945 Gr. 60</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S420N</td>
+					<td class='text ' data-title='Germany DIN'>STE420</td>
+					<td class='text ' data-title='France AFNOR'>E420R</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S420NL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE420</td>
+					<td class='text ' data-title='France AFNOR'>E420FP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A633E</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S460</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>GR65</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S460MC</td>
+					<td class='text ' data-title='Germany DIN'>QSTE460TM</td>
+					<td class='text ' data-title='France AFNOR'>E445D</td>
+					<td class='text ' data-title='Italy UNI'>FEE460</td>
+					<td class='text ' data-title='USA SAE/AISI'>GR65</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S460ML</td>
+					<td class='text ' data-title='Germany DIN'>TSTE460TM</td>
+					<td class='text ' data-title='France AFNOR'>E460FP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S460N</td>
+					<td class='text ' data-title='Germany DIN'>STE460</td>
+					<td class='text ' data-title='France AFNOR'>E460R</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S460NL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE460</td>
+					<td class='text ' data-title='France AFNOR'>E460FP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S460Q</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E460TR</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A537A2</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S460QL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE460V</td>
+					<td class='text ' data-title='France AFNOR'>E460TFP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S500MC</td>
+					<td class='text ' data-title='Germany DIN'>QSTE500TM</td>
+					<td class='text ' data-title='France AFNOR'>E490D</td>
+					<td class='text ' data-title='Italy UNI'>FEE490</td>
+					<td class='text ' data-title='USA SAE/AISI'>GR70</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S500Q</td>
+					<td class='text ' data-title='Germany DIN'>STE500V</td>
+					<td class='text ' data-title='France AFNOR'>E500TR</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S500QL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE500V</td>
+					<td class='text ' data-title='France AFNOR'>E500TFP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S550GD</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>C550</td>
+					<td class='text ' data-title='Italy UNI'>FEE550G</td>
+					<td class='text ' data-title='USA SAE/AISI'>SQ-GRADE550</td>
+					<td class='text ' data-title='Usual Finish'>HDG-Galvanized</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S550MC</td>
+					<td class='text ' data-title='Germany DIN'>OSTE550TM</td>
+					<td class='text ' data-title='France AFNOR'>E560D</td>
+					<td class='text ' data-title='Italy UNI'>FEE560</td>
+					<td class='text ' data-title='USA SAE/AISI'>GR80</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S550MC</td>
+					<td class='text ' data-title='Germany DIN'>OSTE550TM</td>
+					<td class='text ' data-title='France AFNOR'>E560D</td>
+					<td class='text ' data-title='Italy UNI'>FEE560</td>
+					<td class='text ' data-title='USA SAE/AISI'>GR80</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S550Q</td>
+					<td class='text ' data-title='Germany DIN'>STE550V</td>
+					<td class='text ' data-title='France AFNOR'>E550TR</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S550QL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE550V</td>
+					<td class='text ' data-title='France AFNOR'>E550TFP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S600MC</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>E620D</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S620Q</td>
+					<td class='text ' data-title='Germany DIN'>STE620V</td>
+					<td class='text ' data-title='France AFNOR'>E620TR</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S620QL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE620V</td>
+					<td class='text ' data-title='France AFNOR'>E620TFP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S690Q</td>
+					<td class='text ' data-title='Germany DIN'>STE690V</td>
+					<td class='text ' data-title='France AFNOR'>E690TR</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A514F</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S690QL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE690V</td>
+					<td class='text ' data-title='France AFNOR'>E690TFP</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>A709100</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S700MC</td>
+					<td class='text ' data-title='Germany DIN'>OSTE690TM</td>
+					<td class='text ' data-title='France AFNOR'>E690D</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S890QL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE890V</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>S960QL</td>
+					<td class='text ' data-title='Germany DIN'>TSTE960V</td>
+					<td class='text ' data-title='France AFNOR'>E960T-11</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>X100CrMoV5</td>
+					<td class='text ' data-title='Germany DIN'>X100CrMoV51</td>
+					<td class='text ' data-title='France AFNOR'>X100CrMoV5</td>
+					<td class='text ' data-title='Italy UNI'>X100CrMoV5-1 KU</td>
+					<td class='text ' data-title='USA SAE/AISI'>A-2</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>X153CrMoV12</td>
+					<td class='text ' data-title='Germany DIN'>X153CrMoV12-1</td>
+					<td class='text ' data-title='France AFNOR'>X153CrMoV12</td>
+					<td class='text ' data-title='Italy UNI'>X153CrMoV12-1</td>
+					<td class='text ' data-title='USA SAE/AISI'>D-2</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>X17CrNi16-2</td>
+					<td class='text ' data-title='Germany DIN'>X16CrNi16</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>431 X</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>X32CrMoV3-3</td>
+					<td class='text ' data-title='Germany DIN'>X32CrMoV3-3</td>
+					<td class='text ' data-title='France AFNOR'>X32CrMoV3-3</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>H10</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>X5CrNiMo17-12-2</td>
+					<td class='text ' data-title='Germany DIN'>X5CrNiMo17 12 2</td>
+					<td class='text ' data-title='France AFNOR'>X5CrNiMo17-12-2</td>
+					<td class='text ' data-title='Italy UNI'>X5CrNiMo17 12</td>
+					<td class='text ' data-title='USA SAE/AISI'>306</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>X8CrNiS18-9</td>
+					<td class='text ' data-title='Germany DIN'>X10CrNiS18-9</td>
+					<td class='text ' data-title='France AFNOR'>Z8CNF18-09</td>
+					<td class='text ' data-title='Italy UNI'>X10CrNiS18-09</td>
+					<td class='text ' data-title='USA SAE/AISI'>303</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>XS460M</td>
+					<td class='text ' data-title='Germany DIN'>STE460TM</td>
+					<td class='text ' data-title='France AFNOR'>E460R</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>11SMn37</td>
+					<td class='text ' data-title='Germany DIN'>9SMn28</td>
+					<td class='text ' data-title='France AFNOR'>11SMn37</td>
+					<td class='text ' data-title='Italy UNI'>CF9SMn28</td>
+					<td class='text ' data-title='USA SAE/AISI'>1215</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>11SMnPb30</td>
+					<td class='text ' data-title='Germany DIN'>9SMnPb28</td>
+					<td class='text ' data-title='France AFNOR'>11SMnPb30</td>
+					<td class='text ' data-title='Italy UNI'>CF9SMnPb29</td>
+					<td class='text ' data-title='USA SAE/AISI'>12L14</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>16Mo3</td>
+					<td class='text ' data-title='Germany DIN'>15Mo3</td>
+					<td class='text ' data-title='France AFNOR'>15D3</td>
+					<td class='text ' data-title='Italy UNI'>16Mo3</td>
+					<td class='text ' data-title='USA SAE/AISI'>A204 Gr. B</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>16Mo5</td>
+					<td class='text ' data-title='Germany DIN'>16Mo5</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>4520</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>20MnB5</td>
+					<td class='text ' data-title='Germany DIN'>22B2</td>
+					<td class='text ' data-title='France AFNOR'>20MnB5RR</td>
+					<td class='text ' data-title='Italy UNI'>21B3</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>20NiCrMo2-2</td>
+					<td class='text ' data-title='Germany DIN'>21NiCrMo22</td>
+					<td class='text ' data-title='France AFNOR'>20NiCrMo2-2</td>
+					<td class='text ' data-title='Italy UNI'>20NiCrMo2</td>
+					<td class='text ' data-title='USA SAE/AISI'>9620</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>25CrMo4</td>
+					<td class='text ' data-title='Germany DIN'>25CrMo4</td>
+					<td class='text ' data-title='France AFNOR'>25CD4</td>
+					<td class='text ' data-title='Italy UNI'>25CrMo4</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>28Mn6</td>
+					<td class='text ' data-title='Germany DIN'>28Mn6</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE1527</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>30CrNiMo8</td>
+					<td class='text ' data-title='Germany DIN'>30CrNiMo8</td>
+					<td class='text ' data-title='France AFNOR'>30CDN8</td>
+					<td class='text ' data-title='Italy UNI'>30CrNiMo8</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>30MnB5</td>
+					<td class='text ' data-title='Germany DIN'>28B2</td>
+					<td class='text ' data-title='France AFNOR'>30MnB5RR</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>34Cr4</td>
+					<td class='text ' data-title='Germany DIN'>34Cr4</td>
+					<td class='text ' data-title='France AFNOR'>32C4</td>
+					<td class='text ' data-title='Italy UNI'>34Cr4</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>34CrMo4</td>
+					<td class='text ' data-title='Germany DIN'>34CrMo4</td>
+					<td class='text ' data-title='France AFNOR'>34CD4</td>
+					<td class='text ' data-title='Italy UNI'>34CrMo4</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>34CrNiMo6</td>
+					<td class='text ' data-title='Germany DIN'>34CrNiMo6</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>34CrNiMo6</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE4340</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>35S20</td>
+					<td class='text ' data-title='Germany DIN'>35S20</td>
+					<td class='text ' data-title='France AFNOR'>35S20</td>
+					<td class='text ' data-title='Italy UNI'>1957</td>
+					<td class='text ' data-title='USA SAE/AISI'>1140</td>
+					<td class='text ' data-title='Usual Finish'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>36CrNiMo4</td>
+					<td class='text ' data-title='Germany DIN'>36CrNiMo4</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>36CrNiMo4</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>36NiCrMo16</td>
+					<td class='text ' data-title='Germany DIN'></td>
+					<td class='text ' data-title='France AFNOR'>35NCD16</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>37Cr4</td>
+					<td class='text ' data-title='Germany DIN'>37Cr4</td>
+					<td class='text ' data-title='France AFNOR'>38C4</td>
+					<td class='text ' data-title='Italy UNI'>37Cr4</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>38Cr2</td>
+					<td class='text ' data-title='Germany DIN'>38Cr2</td>
+					<td class='text ' data-title='France AFNOR'>38C2</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>38CrS2</td>
+					<td class='text ' data-title='Germany DIN'>38CrS2</td>
+					<td class='text ' data-title='France AFNOR'>38C2u</td>
+					<td class='text ' data-title='Italy UNI'></td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>41Cr4</td>
+					<td class='text ' data-title='Germany DIN'>41Cr4</td>
+					<td class='text ' data-title='France AFNOR'>42C4</td>
+					<td class='text ' data-title='Italy UNI'>41Cr4</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>42CrMo4</td>
+					<td class='text ' data-title='Germany DIN'>42CrMo4</td>
+					<td class='text ' data-title='France AFNOR'>42CD4</td>
+					<td class='text ' data-title='Italy UNI'>42CrMo4</td>
+					<td class='text ' data-title='USA SAE/AISI'>SAE4142</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>50CrMo4</td>
+					<td class='text ' data-title='Germany DIN'>50CrMo4</td>
+					<td class='text ' data-title='France AFNOR'></td>
+					<td class='text ' data-title='Italy UNI'>50CrMo4</td>
+					<td class='text ' data-title='USA SAE/AISI'></td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Europe EN'>51CrV4</td>
+					<td class='text ' data-title='Germany DIN'>50CrV4</td>
+					<td class='text ' data-title='France AFNOR'>50CV4</td>
+					<td class='text ' data-title='Italy UNI'>51CrV4</td>
+					<td class='text ' data-title='USA SAE/AISI'>50C4V2</td>
+					<td class='text ' data-title='Usual Finish'>HR-Hot Rolled</td>
+				</tr>
+			
+		</tbody>
+	</table>
+	<div class='rg-source'>
+		<span class='pre-colon'></span>: <span class='post-colon'></span>
+	</div>
+</div>
