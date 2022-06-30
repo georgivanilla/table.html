@@ -1,0 +1,617 @@
+<style>
+	/* info (hed, dek, source, credit) */
+.rg-container {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 1em 0.5em;
+  color: #222;
+}
+.rg-header {
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.rg-header > * {
+  display: block;
+}
+.rg-hed {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.rg-dek {
+  font-size: 1em;
+}
+
+.rg-source {
+  margin: 0;
+  font-size: 0.75em;
+  text-align: right;
+}
+.rg-source .pre-colon {
+  text-transform: uppercase;
+}
+
+.rg-source .post-colon {
+  font-weight: bold;
+}
+
+/* table */
+table.rg-table {
+  width: 100%;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table.rg-table tr {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  color: #333;
+}
+table.rg-table thead {
+  border-bottom: 3px solid #ddd;
+}
+table.rg-table tr {
+  border-bottom: 1px solid #ddd;
+  color: #222;
+}
+table.rg-table tr.highlight {
+  background-color: #dcf1f0 !important;
+}
+table.rg-table.zebra tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+table.rg-table th {
+  font-weight: bold;
+  padding: 0.35em;
+  font-size: 0.9em;
+}
+table.rg-table td {
+  padding: 0.35em;
+  font-size: 0.9em;
+}
+table.rg-table .highlight td {
+  font-weight: bold;
+}
+table.rg-table th.number,
+td.number {
+  text-align: right;
+}
+
+/* media queries */
+@media screen and (max-width: 0px) {
+  .rg-container {
+    max-width: 0px;
+    margin: 0 auto;
+  }
+  table.rg-table {
+    width: 100%;
+  }
+  table.rg-table tr.hide-mobile,
+  table.rg-table th.hide-mobile,
+  table.rg-table td.hide-mobile {
+    display: none;
+  }
+  table.rg-table thead {
+    display: none;
+  }
+  table.rg-table tbody {
+    width: 100%;
+  }
+  table.rg-table tr,
+  table.rg-table th,
+  table.rg-table td {
+    display: block;
+    padding: 0;
+  }
+  table.rg-table tr {
+    border-bottom: none;
+    margin: 0 0 1em 0;
+    padding: 0.5em;
+  }
+  table.rg-table tr.highlight {
+    background-color: inherit !important;
+  }
+  table.rg-table.zebra tr:nth-child(even) {
+    background-color: transparent;
+  }
+  table.rg-table.zebra td:nth-child(even) {
+    background-color: #f6f6f6;
+  }
+  table.rg-table tr:nth-child(even) {
+    background-color: transparent;
+  }
+  table.rg-table td {
+    padding: 0.5em 0 0.25em 0;
+    border-bottom: 1px dotted #ccc;
+    text-align: right;
+  }
+  table.rg-table td[data-title]:before {
+    content: attr(data-title);
+    font-weight: bold;
+    display: inline-block;
+    content: attr(data-title);
+    float: left;
+    margin-right: 0.5em;
+    font-size: 0.95em;
+  }
+  table.rg-table td:last-child {
+    padding-right: 0;
+    border-bottom: 2px solid #ccc;
+  }
+  table.rg-table td:empty {
+    display: none;
+  }
+  table.rg-table .highlight td {
+    background-color: inherit;
+    font-weight: normal;
+  }
+}
+
+</style>
+<div class='rg-container'>
+	<table class='rg-table' summary='Metal designation abbreviationsMetal designation abbreviations'>
+		<caption class='rg-header'>
+			<span class='rg-hed'>Metal designation abbreviationsMetal designation abbreviations</span>
+			<span class='rg-dek'></span>
+		</caption>
+		<thead>
+			<tr>
+				<th class='text '>Full Description</th>
+				<th class='text '>Abbreviation</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+				<tr class=' highlight'>
+					<td class='text ' data-title='Full Description'>Heat Treatment</td>
+					<td class='text ' data-title='Abbreviation'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Soft annealed</td>
+					<td class='text ' data-title='Abbreviation'>+A</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Annealed to achieve spheroidization of the carbides</td>
+					<td class='text ' data-title='Abbreviation'>+AC</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>As rolled</td>
+					<td class='text ' data-title='Abbreviation'>+AR</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Solution annealed</td>
+					<td class='text ' data-title='Abbreviation'>+AT</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Cold drawn / hard</td>
+					<td class='text ' data-title='Abbreviation'>+C</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Cold rolled</td>
+					<td class='text ' data-title='Abbreviation'>+CR</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Delivery condition at manufacturer's discretion</td>
+					<td class='text ' data-title='Abbreviation'>+DC</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Treated to ferrite-pearlite structure and hardness range</td>
+					<td class='text ' data-title='Abbreviation'>+FP</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot rolled followed by cold hardening</td>
+					<td class='text ' data-title='Abbreviation'>+HC</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Isothermal annealing</td>
+					<td class='text ' data-title='Abbreviation'>+I</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Cold drawn / soft</td>
+					<td class='text ' data-title='Abbreviation'>+LC</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Thermo-mechanical rolling</td>
+					<td class='text ' data-title='Abbreviation'>+M</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Normalized</td>
+					<td class='text ' data-title='Abbreviation'>+N</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Normalized and tempered</td>
+					<td class='text ' data-title='Abbreviation'>+NT</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Precipitation hardened</td>
+					<td class='text ' data-title='Abbreviation'>+P</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Quenched</td>
+					<td class='text ' data-title='Abbreviation'>+Q</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Peeled</td>
+					<td class='text ' data-title='Abbreviation'>+PE</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Air quenched and tempered</td>
+					<td class='text ' data-title='Abbreviation'>+QA</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Oil quenched</td>
+					<td class='text ' data-title='Abbreviation'>+QO</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Liquid quenched and tempered</td>
+					<td class='text ' data-title='Abbreviation'>+QL</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Quenched and tempered</td>
+					<td class='text ' data-title='Abbreviation'>+QT</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Treated to improve shearability</td>
+					<td class='text ' data-title='Abbreviation'>+S</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>As rolled and turned</td>
+					<td class='text ' data-title='Abbreviation'>+SH</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Cold drawn and stress relieved</td>
+					<td class='text ' data-title='Abbreviation'>+SR</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Stress relieve annealing</td>
+					<td class='text ' data-title='Abbreviation'>+SRA</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Tempered</td>
+					<td class='text ' data-title='Abbreviation'>+T</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Treated to hardness range</td>
+					<td class='text ' data-title='Abbreviation'>+TH</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Untreated</td>
+					<td class='text ' data-title='Abbreviation'>+U</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Warm worked</td>
+					<td class='text ' data-title='Abbreviation'>+WW</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'></td>
+					<td class='text ' data-title='Abbreviation'></td>
+				</tr>
+			
+
+				<tr class=' highlight'>
+					<td class='text ' data-title='Full Description'>Surface Coating</td>
+					<td class='text ' data-title='Abbreviation'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot dip aluminium coating</td>
+					<td class='text ' data-title='Abbreviation'>+A</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Aluminium silicon alloy coating</td>
+					<td class='text ' data-title='Abbreviation'>+AS</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Aluminium zinc alloy (>50% Al) coating</td>
+					<td class='text ' data-title='Abbreviation'>+AZ</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Electrolytic chromium/chromium oxide coating (ECCS)</td>
+					<td class='text ' data-title='Abbreviation'>+CE</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Copper coating</td>
+					<td class='text ' data-title='Abbreviation'>+CU</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Inorganic coating</td>
+					<td class='text ' data-title='Abbreviation'>+IC</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Organic coating</td>
+					<td class='text ' data-title='Abbreviation'>+OC</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot-dip tin coating</td>
+					<td class='text ' data-title='Abbreviation'>+S</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Electrolytic tin coating</td>
+					<td class='text ' data-title='Abbreviation'>+SE</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot-dip lead tin alloy (terne) coating</td>
+					<td class='text ' data-title='Abbreviation'>+T</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Electrolytic lead tin alloy (terne) coating</td>
+					<td class='text ' data-title='Abbreviation'>+TE</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot-dip zinc (galvanised) coating</td>
+					<td class='text ' data-title='Abbreviation'>+Z</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot-dip zinc (galvanised) coating</td>
+					<td class='text ' data-title='Abbreviation'>+GI</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot-dip zinc aluminium (>50% Zn) coating</td>
+					<td class='text ' data-title='Abbreviation'>+ZA</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Electrolytic zinc coating</td>
+					<td class='text ' data-title='Abbreviation'>+ZE</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot-dip zinc iron (galvannealed) coating</td>
+					<td class='text ' data-title='Abbreviation'>+ZF</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Hot-dip zinc magnesium coating</td>
+					<td class='text ' data-title='Abbreviation'>+ZM</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Electrolytic zinc nickel alloy coating</td>
+					<td class='text ' data-title='Abbreviation'>+ZN</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'></td>
+					<td class='text ' data-title='Abbreviation'></td>
+				</tr>
+			
+
+				<tr class=' highlight'>
+					<td class='text ' data-title='Full Description'>Surface Type</td>
+					<td class='text ' data-title='Abbreviation'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Unexposed (intenal parts)</td>
+					<td class='text ' data-title='Abbreviation'>U</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Exposed (external parts)</td>
+					<td class='text ' data-title='Abbreviation'>E</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Conventional surface</td>
+					<td class='text ' data-title='Abbreviation'>A</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Improved surface</td>
+					<td class='text ' data-title='Abbreviation'>B</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Best surface</td>
+					<td class='text ' data-title='Abbreviation'>C</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Normal spangle</td>
+					<td class='text ' data-title='Abbreviation'>N</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Minimized spangle</td>
+					<td class='text ' data-title='Abbreviation'>M</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Bright</td>
+					<td class='text ' data-title='Abbreviation'>b</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Semi-bright</td>
+					<td class='text ' data-title='Abbreviation'>g</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Normal</td>
+					<td class='text ' data-title='Abbreviation'>m</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Rough</td>
+					<td class='text ' data-title='Abbreviation'>r</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'></td>
+					<td class='text ' data-title='Abbreviation'></td>
+				</tr>
+			
+
+				<tr class=' highlight'>
+					<td class='text ' data-title='Full Description'>Surface Treatment</td>
+					<td class='text ' data-title='Abbreviation'></td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Without surface treatment</td>
+					<td class='text ' data-title='Abbreviation'>U</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Oiled</td>
+					<td class='text ' data-title='Abbreviation'>P</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Chemically passivated</td>
+					<td class='text ' data-title='Abbreviation'>C</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Chemically passivated and oiled</td>
+					<td class='text ' data-title='Abbreviation'>CO</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Phosphated</td>
+					<td class='text ' data-title='Abbreviation'>P</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Phosphated and oiled</td>
+					<td class='text ' data-title='Abbreviation'>PO</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Phosphated and chemically passivated</td>
+					<td class='text ' data-title='Abbreviation'>PC</td>
+				</tr>
+			
+
+				<tr class=''>
+					<td class='text ' data-title='Full Description'>Phosphated, chemically passivated and oiled (PCO)</td>
+					<td class='text ' data-title='Abbreviation'>PCO</td>
+				</tr>
+			
+		</tbody>
+	</table>
+	<div class='rg-source'>
+		<span class='pre-colon'></span>: <span class='post-colon'></span>
+	</div>
+</div>
