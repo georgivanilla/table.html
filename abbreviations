@@ -520,16 +520,18 @@ td.number {
 				</tr>
 			
 
+	<tr class=''>
+					<td class='text ' data-title='Abbreviation'>C</td>
+					<td class='text ' data-title='Full Description'>Best surface</td>
+				</tr>
+				
 				<tr class=''>
 					<td class='text ' data-title='Abbreviation'>b</td>
 					<td class='text ' data-title='Full Description'>Bright</td>
 				</tr>
 			
 
-				<tr class=''>
-					<td class='text ' data-title='Abbreviation'>C</td>
-					<td class='text ' data-title='Full Description'>Best surface</td>
-				</tr>
+			
 			
 
 				<tr class=''>
@@ -549,6 +551,12 @@ td.number {
 					<td class='text ' data-title='Full Description'>Minimized spangle</td>
 				</tr>
 			
+			
+				<tr class=''>
+					<td class='text ' data-title='Abbreviation'>N</td>
+					<td class='text ' data-title='Full Description'>Normal spangle</td>
+				</tr>
+				
 
 				<tr class=''>
 					<td class='text ' data-title='Abbreviation'>m</td>
@@ -556,11 +564,7 @@ td.number {
 				</tr>
 			
 
-				<tr class=''>
-					<td class='text ' data-title='Abbreviation'>N</td>
-					<td class='text ' data-title='Full Description'>Normal spangle</td>
-				</tr>
-			
+	
 
 				<tr class=''>
 					<td class='text ' data-title='Abbreviation'>r</td>
