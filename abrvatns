@@ -531,6 +531,10 @@ td.number {
 				</tr>
 			
 
+			<tr class=''>
+					<td class='text ' data-title='Abbreviation'>g</td>
+					<td class='text ' data-title='Full Description'>Semi-bright</td>
+				</tr>
 			
 			
 
@@ -539,12 +543,12 @@ td.number {
 					<td class='text ' data-title='Full Description'>Exposed (external parts)</td>
 				</tr>
 			
-
-				<tr class=''>
-					<td class='text ' data-title='Abbreviation'>g</td>
-					<td class='text ' data-title='Full Description'>Semi-bright</td>
+			<tr class=''>
+					<td class='text ' data-title='Abbreviation'>U</td>
+					<td class='text ' data-title='Full Description'>Unexposed (internal parts)</td>
 				</tr>
-			
+
+				
 
 				<tr class=''>
 					<td class='text ' data-title='Abbreviation'>M</td>
@@ -572,10 +576,7 @@ td.number {
 				</tr>
 			
 
-				<tr class=''>
-					<td class='text ' data-title='Abbreviation'>U</td>
-					<td class='text ' data-title='Full Description'>Unexposed (internal parts)</td>
-				</tr>
+				
 			
 
 				<tr class=''>
